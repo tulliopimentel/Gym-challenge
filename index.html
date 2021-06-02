@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title> Gym site </title>
+</head>
+
+<body>
+    <header class="border-0">
+        <nav class="border-0 navbar fixed-top navbar-expand-lg navbar-light bg-dark justify-content-between border-bottom">
+                <div class="d-flex flex-row align-items-center max-height"> 
+                    <img src="./img/logo.png" alt="Logo da Academia" class="logo d-flex align-items-start">
+                    <a class="text-white ml-4"> Home </a>
+                    </div>
+                <div class="d-flex flex-row align-items-center">
+                    <input type="text" class="btn-sm mr-3 rounded border-0" placeholder="Search">
+                    <button type="button" class="btn btn-danger btn-sm button"> Pesquisar </button>   
+                </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="p-relative">
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner photo-carrossel bg-dark">
+                  <div class="carousel-item active opacity">
+                      <img class="d-block w-100" src="./img/homem-fazendo-flexao.jpg" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item photo-carrossel ioga opacity">
+                    <img class="d-block w-100" src="./img/mulher-fazendo-ioga.jpg" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item photo-carrossel opacity">
+                    <img class="d-block w-100" src="./img/treinador.jpg" alt="Terceiro Slide">                  
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon carrosel " aria-hidden="true"></span>
+                  <span class="sr-only carrosel ">Próximo</span>
+                </a>
+              </div>
+
+        </section>
+        
+        <section>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="w-50">
+                <img class="ing-dimention rounded-circle mb-4" src="./img/treinamento-funcional.jpg" alt="">
+                <p class="font-weight-bold"> Treinamento Funcional </p>
+                <p> O treinamento funcional baseia-se no movimento natural do ser humano como correr, pular
+                e empurrar. </p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+              <div class="w-50">
+                <img class="ing-dimention rounded-circle mb-4" src="./img/treinador.jpg" alt="">
+                <p class="font-weight-bold"> Treino Físico </p>
+                <p> Treinamento de cada grupo muscular trabalhado duas vezes na semana usando
+                  aparelhos de academia.
+                </p>
+              </div>
+            </div>
+
+            <div class="col d-flex justify-content-center">
+              <div  class="w-50">
+                <img class="ing-dimention rounded-circle mb-4" src="./img/posicao-ioga.jpg" alt="">
+                <div class="">
+                  <p class="font-weight-bold"> Ioga </p>
+                  <p> É um conceito que se refere às tradicionais disciplinas 
+                  físicas e mentais originárias da Índia.
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="p-relative">
+
+
+  <div class="p-relative mt-4">
+        <div class="w-100 carousel-inner photo-carrossel-2 parallax-trilha">
+          <div class="w-100 trilha-text align-items-center frase font-weight-bold">
+            <p class="trilha-text-2"> "Uma hora antes da academia: cansaço e vontade de ficar em casa. <br>
+            <p class="d-flex justify-content-center"> Uma hora depois da academia: aquele sentimento maravilhoso de dever cumprido." </p>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+<section class="p-relative w-100">
+
+    <div class="d-flex w-100 justify-content-center mt-5">
+      <p class="planos"> Conheça nossos planos </p>
+    </div>
+
+    <div class="container row justify-content-between align-items-center center mb-4"> 
+    
+      <div class="d-flex col mr-3 card m-0 p-0">
+        <div class="card-header">
+          <h5 class="d-flex w-100 card-title justify-content-center m-0"> Básico </h5>
+        </div>
+        <div class="card-body m-0">
+          <p class="d-flex justify-content-center plano-preco"> <b>R$50</b>/mês </p>
+          <p class="d-flex card-text justify-content-center"> Treino 2 dias da semana.</p>
+          <p class="d-flex card-text justify-content-center"> Acompanhamento de personal trainer</p>
+          <p class="d-flex card-text justify-content-center"> Aulas de spinning inclusas </p>
+          <p class="d-flex card-text justify-content-center"> Teste físico gratuito </p>
+          <a href="#" class="d-flex btn btn-primary btn-danger w-100 justify-content-center "> Contratar este plano </a>
+        </div>
+      </div>
+
+      <div class="mr-3 card">
+        <div class="card-header">
+          <h5 class="d-flex w-100 card-title justify-content-center m-0"> Pro </h5>
+        </div>
+        <div class="card-body">
+          <p class="d-flex justify-content-center plano-preco"> <b>R$80</b>/mês </p>
+          <p class="d-flex card-text justify-content-center"> Treino 4 dias da semana.</p>
+          <p class="d-flex card-text justify-content-center"> Acompanhamento de personal trainer e nutricionista</p>
+          <p class="d-flex card-text justify-content-center"> Aulas de spinning e Ioga inclusas </p>
+          <p class="d-flex card-text justify-content-center"> Teste físico gratuito </p>
+          <a href="#" class="d-flex btn btn-primary btn-danger w-100 justify-content-center "> Contratar este plano </a>
+        </div>
+      </div>
+
+      <div class="col card p-0">
+        <div class="card-header">
+          <h5 class="d-flex w-100 card-title justify-content-center m-0"> Enterprise</h5>
+        </div>
+        <div class="card-body">
+          <p class="d-flex justify-content-center plano-preco"> <b>R$130</b>/mês </p>
+          <p class="d-flex card-text justify-content-center"> Treino 7 dias da semana.</p>
+          <p class="d-flex card-text justify-content-center"> Acompanhamento de personal trainer, nutricionista e psicóloga</p>
+          <p class="d-flex card-text justify-content-center"> Aulas de spinning, Ioga e Zumba inclusas </p>
+          <p class="d-flex card-text justify-content-center"> Treinamento funcional e cross-fit </p>
+          <p class="d-flex card-text justify-content-center"> Teste físico gratuito </p>
+          <a href="#" class="d-flex btn btn-primary btn-danger w-100 justify-content-center "> Contratar este plano </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-relative mt-4">
+      <div class="w-100 carousel-inner photo-carrossel-3 parallax-ioga">
+        <div class="w-100 trilha-text align-items-center frase font-weight-bold">
+          <p class="trilha-text-2 opacity"> "Energia! Lembre dos seus objetivos e não desista: o esforço de hoje será recompensado" <p>
+        </div>
+    </div>
+</div>
+
+    <div class="p-relative w-100" >
+      <h3 class="d-flex justify-content-center mt-5"> Quer saber mais? Entre em contato </h3>
+    </div>
+
+    <div class="container mt-4">
+      <div class="input-group flex-nowrap mb-3">
+        <span class="input-group-text" id="addon-wrapping"> Nome </span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+
+      <div class="input-group flex-nowrap mb-3">
+        <span class="input-group-text" id="addon-wrapping"> E-mail </span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+
+      <div class="input-group flex-nowrap mb-3">
+        <span class="input-group-text" id="addon-wrapping"> Mensagem </span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Eu aceito receber e-mail com notícias e promoções
+        </label>
+
+</section>
+
+  <footer class="border-0 bg-dark justify-content-between p-3 mt-5"> 
+    <div>
+      <p class="align-items-center text-footer"> Fitness © 2021 - Todos os direitos reservados </p>
+    </div>  
+  </footer>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+
+ 
+</html>

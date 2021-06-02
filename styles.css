@@ -1,0 +1,134 @@
+
+.home {
+    color: white;
+}
+
+.logo {
+    width: 110px;
+}
+
+.button-size {
+    height: 32px;
+    text-align: center;
+}
+
+.ing-dimention {
+    transform: scale(1);
+    width: 100%;
+    border-radius:50%;
+    width:145px;
+    height:145px;
+}
+
+.stories-profile-photo {
+    position: relative;
+}
+
+.photo-carrossel {
+    position: relative;
+    transform: scale(1);
+    width: 100%;
+    height: 500px;
+}
+
+.ioga {
+    transform: translateY(-15%)
+}
+
+.photo-carrossel-2 {
+    position: relative;
+    transform: scale(1);
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+.photo-carrossel-3 {
+    position: relative;
+    transform: scale(1);
+    width: 100%;
+    height: 270px;
+    background-color: black;
+}
+
+.trilha-text {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.trilha-text-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 150px;
+    opacity: 1;
+}
+
+.frase {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.planos {
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.plano-preco {
+    font-size: 25px;
+}
+
+.center {
+    margin-left: 103px;
+}
+
+.text-footer {
+    color: white;
+    margin-left: 103px;
+}
+
+.parallax-trilha {
+    /* The image used */
+    background-image: url("./img/trilha.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-ioga {
+    /* The image used */
+    background-image: url("img/treino-praia.jpg");
+  
+    /* Set a specific height */
+    min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+@media (max-width: 480px) {
+
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .ioga {
+        transform: translateY(10%)
+    }
+}
